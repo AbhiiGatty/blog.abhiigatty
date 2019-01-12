@@ -1,43 +1,49 @@
-baseurl         = "/"
+baseurl         = "https://abhiigatty.com"
 theme           = "hugo-casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
-paginate        = 10
-#SectionPagesMenu = "main"
+paginate        = 6
+# SectionPagesMenu = "main"
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+enableEmoji = true
 
 [params]
-  title       = "abhiigatty blog"
-  subtitle    = "The more that you read, the more things you will know. The more that you learn, the more places you'll go. - Dr. Seuss "
+  title       = "Blog by AbhiiGatty"
+  subtitle    = ""
 
-  cover       = "img/blog-cover.jpg"
-  description = "Here is a description of your site."
+  cover       = "uploads/header_7.jpg"
+  description = "Personal blog by AbhiiGatty"
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
   RSSLink = ""
 
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
-  githubName = "eueung"
+  twitterName = "abhiigatty_"
+  fbName = ""
+  githubName = "Hitoshirenu"
+  linkedinName = "abhiigatty"
+  mediumName = "abhiigatty"
+  instagramName = "abhiigatty"
 
-  logo = "hugo-logo.png"
-  orgName = "EM"
-  orgWebsite = "https://www.telematika.org"
-  orgDescription = "Here is a description placeholder for your org"
+  logo = "uploads/logo.png"
+  orgName = "AbhiiGatty"
+  orgWebsite = "https://www.abhiigatty.com/"
+  orgDescription = "Personal blog by AbhiiGatty"
 
-  author = "EM"
-  authorAvatar = "img/ghost-icon.png"
-  authorLocation = "Bandung, ID"
-  authorWebsite = "https://eueung.github.io"
-  authorDescription = "Describe yourself.."
+  author = "AbhiiGatty"
+  authorAvatar = "uploads/profile/profile_1.jpg"
+  authorLocation = "Mangaluru, India"
+  authorWebsite = "https://Hitoshirenu.github.io"
+  authorDescription = "Perpetual lazy programmer | BlockChain, BigData, WebDev, NetworkSecurity and Biriyani enthusiast"
 
   pageNotFoundTitle = "404 - Page not found"
 
   #casper or caspertwo
   singleViewStyle = "casper"
 
-[permalinks]
-  post = "/:slug/"
+# [permalinks]
+#   post = "/:slug/"
 
 [[menu.main]]
   name = "Home"
@@ -45,16 +51,16 @@ paginate        = 10
   weight = 200
 
 [[menu.main]]
-  name = "Go"
-  url = "/tags/golang/"
+  name = "Linux"
+  url = "/tags/linux/"
   weight = 100
 
 [[menu.main]]
-  name = "Food"
-  url = "/categories/food/"
+  name = "Tutorials"
+  url = "/categories/tutorials/"
   weight = 99
 
 [[menu.main]]
-  name = "External"
+  name = "Resume"
   url = "https://google.com/"
   weight = 95
